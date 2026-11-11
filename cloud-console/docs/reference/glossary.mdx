@@ -7,6 +7,8 @@ sidebar_position: 2
 
 | Term | Definition |
 | --- | --- |
+| **Alert** | A notification sent when an alert rule's condition is met. Every alert is recorded in the alert history. |
+| **Alert rule** | A condition on a component's CPU usage, memory usage, or logs, checked on a schedule in each environment the component is deployed to. |
 | **Cloud data plane (CDP)** | Shared, multi-tenant runtime infrastructure that WSO2 runs. Components from many organizations run in it, isolated from each other. |
 | **Component** | A single unit you build, deploy, and run, such as an agent, an integration, or an API. Each service uses its own names for its components. Each component belongs to one project. |
 | **Control plane** | Where you manage your organization, users, and resources. WSO2 runs it as SaaS. |
@@ -14,6 +16,7 @@ sidebar_position: 2
 | **Enterprise sign-in** | Signing in to WSO2 Cloud with your organization's own OpenID Connect identity provider instead of Google or GitHub. |
 | **Environment** | An isolated place where components run, such as Development or Production. Shared across services, except Platform Engineering. |
 | **Group** | A set of users in an organization. Each group is granted a role, and its members get that role's permissions. Every organization has one built-in group per role, with the same name. |
+| **Notification channel** | A webhook or a list of email addresses that receives alerts from one environment. Each environment has a default channel. |
 | **Organization** | The top-level tenant boundary in WSO2 Cloud. It holds users, service contacts, and the resources you create in every service. |
 | **Organization handle** | A unique, readable identifier derived from the organization name, shown with an `@` prefix. |
 | **Organization Unit ID** | A unique, system-generated identifier for an organization. |

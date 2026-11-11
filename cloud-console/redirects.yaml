@@ -27,6 +27,16 @@ legacy:
     to: guides/manage-your-subscription
   - from: https://docs.wso2.com/docs/manage/private-network-access/
     to: guides/private-network-access
+  - from: https://docs.wso2.com/docs/manage/container-registries/
+    to: guides/container-registries
+  - from: https://docs.wso2.com/docs/observability/alerts/
+    to: guides/observability/alerts
+  - from: https://docs.wso2.com/docs/observability/notification-channels/
+    to: guides/observability/notification-channels
+  - from: https://docs.wso2.com/docs/observability/alert-rules/
+    to: guides/observability/alert-rules
+  - from: https://docs.wso2.com/docs/observability/alert-history/
+    to: guides/observability/alert-history
   - from: https://docs.wso2.com/docs/architecture/overview/
     to: concepts/architecture/overview
   - from: https://docs.wso2.com/docs/architecture/data-planes/

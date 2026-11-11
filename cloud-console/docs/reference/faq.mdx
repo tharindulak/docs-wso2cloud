@@ -58,6 +58,16 @@ Yes, with a private data plane. See [Data planes](../concepts/architecture/data-
 
 Yes. Connect an environment to your Tailscale network, add the database as an endpoint, and choose which projects can use it. Connections are outbound and TCP only. See [Set up private network access](../guides/private-network-access.mdx).
 
+## Observability
+
+### Can WSO2 Cloud tell me when a component has a problem?
+
+Yes. Create an alert rule on the component, for example for high CPU usage or error logs. When the rule fires, WSO2 Cloud sends an alert to a webhook or to email addresses. See [Alerts](../guides/observability/alerts.mdx).
+
+### Who can set up alerts?
+
+Admins, Platform Engineers, and Developers can create alert rules. Only Admins and Platform Engineers can set up the notification channels that receive alerts. See [Alerts](../guides/observability/alerts.mdx#who-can-use-alerts).
+
 ## Support
 
 ### How do I get help?
