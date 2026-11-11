@@ -9,7 +9,7 @@ editionNames:
 home: cloud-console
 owners:
   team: cloud-console-docs
-repo: hevayo/docs-wso2cloud
+repo: tharindulak/docs-wso2cloud
 editLinks: true
 issues:
   repo: wso2/docs-wso2cloud
